@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import App from "./props-children-slot/App";
+import App from "./react-router-dom/App";
 
 const root = document.getElementById("root");
 
