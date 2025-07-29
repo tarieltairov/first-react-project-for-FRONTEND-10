@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 20px;
+  border: 1px solid black;
+  nav {
+    display: flex;
+    gap: 20px;
+    span {
+      cursor: pointer;
+      // transition: all ease-in-out 0.4s;
+      &:hover {
+        color: red;
+        text-decoration: underline;
+      }
+    }
+  }
+}
