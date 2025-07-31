@@ -3,6 +3,7 @@
   border: 1px solid black;
   nav {
     display: flex;
+    justify-content: center;
     gap: 20px;
     span {
       cursor: pointer;
@@ -11,6 +12,10 @@
         color: red;
         text-decoration: underline;
       }
+    }
+
+    .activePath {
+      color: red;
     }
   }
 }
