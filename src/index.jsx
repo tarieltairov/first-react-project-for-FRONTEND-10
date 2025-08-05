@@ -1,5 +1,5 @@
 import { createRoot } from "react-dom/client";
-import { App } from "./useReducer/App";
+import { App } from "./optimization/App";
 
 const root = document.getElementById("root");
 
