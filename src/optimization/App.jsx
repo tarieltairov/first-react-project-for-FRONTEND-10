@@ -1,6 +1,8 @@
 // import { Parent } from "./examples/first/FirstExample";
 
-import { ShowResultFromHeavy } from "./examples/third/ThirdExample";
+import Parent from "./examples/fourth/FourthExample";
+
+// import { ShowResultFromHeavy } from "./examples/third/ThirdExample";
 
 // import { Parent } from "./examples/second/SecondExample";
 
@@ -17,7 +19,8 @@ export function App() {
 
       {/* <Parent /> */}
       {/* <Parent /> */}
-      <ShowResultFromHeavy />
+      {/* <ShowResultFromHeavy /> */}
+      <Parent />
     </div>
   );
 }
